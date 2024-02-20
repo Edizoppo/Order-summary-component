@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    color: hsl(224, 23%, 55%);
+    }
+    
+    .container{
+    position: relative;
+    border-radius: 1rem;
+    background-color:white;
+    width: 28rem;
+    height: 44rem;
+    }
+
+    .container img{
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+        
+    }
+
+    .container h2{
+    color:black;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 34px;
+    }
+
+    .paragrafo {
+      width: 300px;
+      margin-left: 72px;
+    }
+    
+
+    .paragrafo p{
+    text-align: center;
+    line-height: 1.7rem;
+    height: 62px;
+
+    }
+
+
+    .box{
+    display: flex;
+    justify-content: center;
+    background-color:hsl(225, 100%, 98%);
+    margin: 37px;
+    height: 84px;
+    border-radius: 10px;
+    }
+    
+    .span{
+    margin-top: 35px;
+    }
+
+    .musica{
+    display: flex ;
+    width: 300px;
+    }
+
+    .musica_1{
+    justify-content: center;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    padding: 6px;
+    margin-top: 12px;
+    
+}
+    
+   .paragrafo_1{
+    margin-top: 23px;
+    width: 6rem;
+    line-height: 24px;
+    color: black;
+    
+}
+
+.paragrafo_1  .valor{
+    color:hsl(224, 23%, 55%);
+}
+    
+.button button{
+   display: flex;
+   justify-content: center;
+   height: 50px;
+   border-radius: 14px;
+   width: 384px;
+   padding-left: 10px;
+   text-align: center;
+   padding-top: 18px;
+   background-color: hsl(245, 75%, 52%);
+   border: none;
+   color: white;
+}
+   
+.button{
+    padding-left: 32px;
+}
+
+.cancel{
+    text-decoration: none;
+    margin: 40px;
+    padding-left: 105px;
+}
+
+.cancelOrder{
+    text-decoration: none;
+}
+
+.plano{
+    margin-top: 35px;
+}
+
+
+
+
+
+    
+    
+
+    
+   
